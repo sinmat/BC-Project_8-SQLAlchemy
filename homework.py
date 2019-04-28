@@ -71,9 +71,9 @@ def precipitation():
         row["prcp"] = result[1]
         precipitation.append(row)
 
-    return "works"
+    
 
-    # return jsonify(precipitation)
+    return jsonify(precipitation)
 
 
 @app.route("/api/v1.0/stations")
